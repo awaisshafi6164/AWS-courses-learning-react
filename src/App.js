@@ -1,13 +1,16 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
+// import birdLogo from './bird.svg';
+import aImage from './A-Alphabet.png';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={aImage} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          {/* Edit <code>src/App.js</code> and save to reload. */}
+          Muhammad Awais Shafi
         </p>
         <a
           className="App-link"
@@ -15,7 +18,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React For AWS Serverless programming
+          Challenge
         </a>
       </header>
     </div>
