@@ -1,28 +1,19 @@
+import React from 'react';
 //import logo from './logo.svg';
-// import birdLogo from './bird.svg';
-import aImage from './A-Alphabet.png';
 import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={aImage} className="App-logo" alt="logo" />
-        <p>
-          {/* Edit <code>src/App.js</code> and save to reload. */}
-          Muhammad Awais Shafi
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Challenge
-        </a>
-      </header>
-    </div>
-  );
+import Header from './components/Header.js'
+import Footer from './components/Footer.js'
+import Main from './components/Main.js'
+class App extends React.Component {
+  render() {
+    return (
+      <div className='App'>
+        <Header/>
+        <Main/>
+        <Footer/>
+        </div>
+    );
+  }
 }
 
 export default App;
