@@ -1,5 +1,5 @@
 import React from 'react';
-import imageLinksData from 'D:/aws_courses/Getting Started as an AWS developer/london/src/components/data/image_links.json';
+import imageLinksData from './main-div-data/image_links.json';
 const MainDivWelcome = () => {
 
     return (

@@ -1,7 +1,7 @@
 import React from 'react';
-import hotelInfoStrong from 'D:/aws_courses/Getting Started as an AWS developer/london/src/components/data/hotelInfo_strong.json'
-import hotelInfoServices from 'D:/aws_courses/Getting Started as an AWS developer/london/src/components/data/hotelInfo_services.json'
-import hotelInfoAccessibility from 'D:/aws_courses/Getting Started as an AWS developer/london/src/components/data/hotelInfo_accessibility.json'
+import hotelInfoStrong from './main-div-data/hotelInfo_strong.json'
+import hotelInfoServices from './main-div-data/hotelInfo_services.json'
+import hotelInfoAccessibility from './main-div-data/hotelInfo_accessibility.json'
 
 const MainDivHotelInfo = () => {
     return (
