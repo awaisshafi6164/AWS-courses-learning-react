@@ -12,6 +12,7 @@ const Header = () => {
             </div>
           </article>
 
+        
           <nav id="nav">
             <div className="navbar">
               <div className="brand"><a href="#welcome">Landon <span>Hotel</span></a></div>
